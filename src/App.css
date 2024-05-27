@@ -1,0 +1,25 @@
+.img-container {
+  height: 200px;
+  /* Altura fija */
+  overflow: hidden;
+  /* Ocultar parte de la imagen que exceda el tamaño definido */
+}
+
+.img-fluid {
+  height: 100%;
+  /* Altura del 100% del contenedor */
+  object-fit: cover;
+  /* Ajustar la imagen al tamaño definido */
+  width: 100%;
+  /* Ancho del 100% del contenedor */
+}
+
+.card {
+  transition: transform 0.3s ease;
+  /*aplica un efecto de transición a la propiedad en 0,3 segundos*/
+}
+
+.card:hover {
+  transform: scale(1.05);
+  /*escala la tarjeta al 110% al hover*/
+}
